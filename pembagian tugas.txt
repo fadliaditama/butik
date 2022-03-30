@@ -1,0 +1,42 @@
+Fadli
+    -Tampilan Home
+    - tampilan admin
+        -dashboard
+        -header
+    - tampilan barang
+        - detail
+        - barang
+        - edit-barang
+        - tambah-barang
+    - tampilan karyawan
+
+Hartini
+    Buat Dokumentasi
+    
+
+Amed
+    - Ngisi Database 
+    - Input CRUD Backend
+Azim
+    - About US
+Farhan
+    - Tampilan Login
+    - Tampilan Barang Delete
+Suci
+    - Tampilan Lokasi
+
+DEADLINE BESOK JAM 9 PAGI 
+
+
+Fitur :
+    - admin
+        - dashboard
+        - barang
+        - karyawan
+        - transaksi
+    login
+    home karyawan
+    home admin
+    logout
+    crud barang
+    crud karyawan

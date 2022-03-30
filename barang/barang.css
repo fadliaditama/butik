@@ -1,0 +1,209 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.barang {
+display: flex;
+justify-content: center; flex-wrap: wrap;
+flex-direction: row; position: absolute; top: 120px;
+width: 100%;
+
+}
+
+.kon {
+padding: 10px; width: 90%;
+}
+
+.kon h2 {
+font-family: Arial, Helvetica, sans-serif; font-weight: 500;
+margin-bottom: 20px; font-size: 24pt;
+}
+
+.btn {
+margin-top: 30px; margin-bottom: 15px; margin-left: 20px; margin-right: 20px; display: flex;
+justify-content: space-between;
+
+}
+
+.btn button {
+border: none;
+}
+
+.btn-back,
+.btn-add {
+padding: 8px;
+text-decoration: none; color: white;
+background-color: #17a2b8;
+font-family: Arial, Helvetica, sans-serif; font-weight: lighter;
+border-radius: 5px;
+}
+
+.btn-back:hover,
+.btn-add:hover {
+background-color: #148496;
+box-shadow: 0px 0px 2px 2px #17a3b811;
+}
+
+.clear {
+content: ""; clear: both;
+}
+
+.search {
+display: flex;
+flex-direction: row; justify-content: flex-end; float: right;
+margin-top: 20px; margin-bottom: 20px; align-items: center; vertical-align: middle; border-radius: 2px;
+background-color: #e7e7e7; padding: 4px;
+}
+
+.search-btn-search { padding: 7px; border: none;
+background-color: #22bb33; color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-btn-search:hover {
+
+cursor: pointer; background-color: #1c9b2b;
+}
+
+.search-input input { padding: 7px;
+background-color: #d8d4d4; border: none;
+}
+
+.search-input input:hover { background-color: white;
+}
+
+.search-btn-reset { padding: 7px; border: none;
+background-color: crimson; color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-btn-reset:hover { cursor: pointer;
+background-color: rgb(184, 17, 50);
+}
+
+.date-title {
+border-radius: 4px; background-color: #5bc0de; color: white;
+font-family: Arial, Helvetica, sans-serif; padding: 8px;
+margin-top: 25px; display: inline-block;
+}
+
+.date-title:hover { cursor: pointer;
+background-color: #6bdcff; color: rgb(63, 60, 60);
+}
+
+.date {
+padding: 15px;
+
+display: inline-block; border-radius: 4px; background-color: #e6e6e6c5; width: 25%;
+margin-bottom: 20px; margin-left: 20px;
+}
+
+.date-input-from label,
+.date-input-until label { display: block; padding: 5px;
+padding-bottom: 1px;
+font-family: Arial, Helvetica, sans-serif; font-size: 10pt;
+
+}
+
+.date-input-until label { margin-top: 10px;
+}
+
+.date-input-from-form,
+.date-input-until-form { display: block; width: 60%;
+}
+
+.date-btn {
+margin-top: 20px; display: flex;
+flex-direction: row; float: right;
+
+}
+
+.date-btn-filter,
+.date-btn-reset { padding: 5px; border-radius: 4px; margin: 3px; border: none;
+}
+
+.date-btn-filter {
+
+background-color: #22bb33; color: white;
+}
+
+.date-btn-filter:hover { cursor: pointer; background-color: #1c9b2b;
+}
+
+.date-btn-reset {
+background-color: crimson; color: white;
+}
+
+.date-btn-reset:hover { cursor: pointer;
+background-color: rgb(184, 17, 50);
+}
+
+.table-data {
+width: 100%; flex-wrap: wrap;
+border-collapse: collapse;
+}
+
+.table-data tbody tr:nth-child(odd) { background-color: #f2f2f2;
+}
+
+.table-data thead tr th {
+font-family: Arial, Helvetica, sans-serif; padding: 8px;
+padding-top: 15px; padding-bottom: 15px; text-align: left;
+border-top: 2px solid rgba(128, 128, 128, 0.39);
+}
+
+
+
+.col-0 {
+width: 3%;
+}
+
+.col-1 {
+
+width: 5%;
+}
+
+.col-2 {
+width: 7%;
+}
+
+
+.table-data tbody tr td {
+font-family: Arial, Helvetica, sans-serif; padding: 8px;
+padding-top: 12px; padding-bottom: 12px; text-align: left;
+border-top: 1px solid rgba(128, 128, 128, 0.774);
+
+}
+
+.btn-detail,
+.btn-edit,
+.btn-hapus {
+display: inline-block; padding: 7px;
+border-radius: 4px; text-decoration: none; font-size: 11pt;
+}
+
+.btn-detail {
+background-color: #17a2b8; color: white;
+}
+
+.btn-detail:hover { background-color: #148091;
+}
+
+.btn-edit {
+background-color: #ffc107; color: black;
+}
+
+.btn-edit:hover {
+background-color: #d8a200;
+}
+
+.btn-hapus{
+    background-color: #dc3546;
+    color: white;
+}
+
+.btn-hapus:hover {
+    background-color: #af2b38;
+}

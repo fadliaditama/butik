@@ -1,0 +1,39 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header {
+background-color: #48d1cc;
+}
+
+.navbar {
+list-style: none; overflow: hidden;
+}
+
+.header-btn,
+.close-btn {
+border: 1px solid black; padding: 8px;
+float: left; margin: 7px 10px; border-radius: 4px;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif; font-size: 11pt;
+}
+
+.header-btn {
+color: #2e7471; border: none;
+}
+
+.header-btn:hover { background-color: #42beba; color: white;
+box-shadow: 1px 1px 6px 1px #2e7471;
+}
+
+.close-btn {
+background-color: #d9534f; border: none;
+color: white;
+}
+
+.close-btn:hover{
+    background-color: #eb5651;
+    box-shadow: 1px 1px 6px 1px;
+}

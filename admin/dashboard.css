@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box--sizing: border-box;
+}
+
+@media screen and (max-width: 600px){
+    body .box {
+        flex-direction: column;
+        justify-content: center;
+        widht: 100%;
+    }
+}
+
+.halo{
+    background-color: #c7f9f8;
+}
+
+.halo-profile-pic img{
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+    box-shadow: 0px 1px 5px 1px gray;
+}
+
+.halo-name{
+    padding: 8px;
+    padding-bottom: 0;
+    margin-top: 10px;
+    font-family: Arial, Hervetica, sans-serif;
+    font-size: 16pt; display: inline-block;
+
+}
+
+.halo-waves {
+padding: 0;
+margin: 0;
+}
+
+.box {
+display: flex;
+justify-content: center;
+
+}
+
+.box-title {
+margin-top: 40px; padding: 10px; display: block;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 24pt;
+transform: translate(0, -70px); font-weight: 300;
+letter-spacing: 2px;
+
+}
+
+.box-card {
+padding: 15px; margin-right: 30px; margin-left: 30px; border-radius: 5px; width: 20%;
+background-color: white;
+box-shadow: 0px 0px 8px 1px #71e2e0; background-color: #c7f9f8a4;
+}
+
+.box-card:hover {
+box-shadow: 0px 0px 15px 7px #59b3b2d2;
+}
+
+.box-card-title { padding: 6px;
+    margin: 5px;
+margin-bottom: 5px; text-align: center; font-size: 18pt; font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+}
+.box-card-image img { width: 150px; height: 150px;
+}
+.box-card-data {
+font-family: Arial, Helvetica, sans-serif; font-weight: 800;
+font-size: 18pt; border: none; padding-top: 8px; padding-bottom: 8px;
+background-color: rgba(0, 0, 0, 0.548); color: white;
+border-radius: 3px; margin-top: 5px;
+}
+.box-card-details { float: right; border: none; padding: 6px; margin-top: 10px;
+text-decoration: none; border-radius: 3px; background-color: #48d1cc;
+font-family: Arial, Helvetica, sans-serif; color: white;
+font-size: 11pt;
+}
+.box-card-details:hover { background-color: #3ba5a1;
+}
+
+
+
