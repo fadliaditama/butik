@@ -34,6 +34,14 @@ Fitur :
         - barang
         - karyawan
         - transaksi
+
+    - karyawan
+        -kasir
+        -petugas kasir
+        -tambah kasir
+        -detail kasir
+        -edit kasir
+        -petugas kasir
     login
     home karyawan
     home admin
